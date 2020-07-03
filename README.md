@@ -4,10 +4,15 @@ Our goal is to provide a good looking website with easy to understand featuires 
 
 ---- 
 
+  <div align="center">
+    <img width=214 height=214 src=".github/MEDIA/logo.png">
+  
   ![commit-info][commit-info]
   ![contributors-info][contributors-info]
   ![reposize-info][reposize-info]
-
+  
+  </div>
+  
 ----
 
 ## Getting started:
