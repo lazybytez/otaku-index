@@ -1,16 +1,53 @@
-# General Template
-This is a general repository template for all projects done by the organization lazybytez. You can use it if you want. Just be sure to modify the names and emails.
+# Otaku Index
+This is a new Anime site where you can create your own List and make your own "page" with what you watched and plan to watch etc. 
+Our goal is to provide a good looking website with easy to understand featuires and an functional API, which you can also freely use for your own projects! 
 
 ---- 
 
+  <div align="center">
+    <img width=214 height=214 src=".github/MEDIA/logo.png">
+  
   ![commit-info][commit-info]
   ![contributors-info][contributors-info]
   ![reposize-info][reposize-info]
+  
+  </div>
 
 ----
 
+## Requirements:
+
+- [Docker](https://docs.docker.com/get-docker/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+
 ## Getting started:
-tbd
+
+1. Clone the repository:
+```
+git clone https://github.com/lazybytez/otaku-index.git
+```
+
+2. Go into the folder of the project:
+```
+cd otaku-index
+```
+
+3. Start and build the docker container:
+```
+docker-compose up -d --build
+```
+
+4. First time setting up the project:
+```
+docker-compose exec php composer install
+```
+
+5. Then you can open symfony at [localhost:8888](http://localhost:8888)
+
+If you want to run symfony commands please do so in the php docker container:
+```
+docker-compose exec php <command>
+```
 
 ## Contributing
 
@@ -31,15 +68,15 @@ If you want to take part in contribution, like fixing issues and contributing di
 <!-- Variables -->
 [github-team]: https://github.com/lazybytez
 
-[github-license]: https://github.com/lazybytez/general-template/blob/master/LICENSE
-[github-contribute]: https://github.com/lazybytez/general-template/blob/master/CONTRIBUTING.md
-[github-codeofconduct]: https://github.com/lazybytez/general-template/blob/master/CODE_OF_CONDUCT.md
-[github-issues]: https://github.com/lazybytez/general-template/issues
-[github-pulls]: https://github.com/lazybytez/general-template/pulls
-[github-security]: https://github.com/lazybytez/general-template/blob/master/SECURITY.md
+[github-license]: https://github.com/lazybytez/otaku-index/blob/master/LICENSE
+[github-contribute]: https://github.com/lazybytez/otaku-index/blob/master/CONTRIBUTING.md
+[github-codeofconduct]: https://github.com/lazybytez/otaku-index/blob/master/CODE_OF_CONDUCT.md
+[github-issues]: https://github.com/lazybytez/otaku-index/issues
+[github-pulls]: https://github.com/lazybytez/otaku-index/pulls
+[github-security]: https://github.com/lazybytez/otaku-index/blob/master/SECURITY.md
 
-[commit-info]: https://img.shields.io/github/last-commit/lazybytez/general-template?style=flat-square
+[commit-info]: https://img.shields.io/github/last-commit/lazybytez/otaku-index?style=flat-square
 
-[contributors-info]: https://img.shields.io/github/contributors/lazybytez/general-template?style=flat-square
+[contributors-info]: https://img.shields.io/github/contributors/lazybytez/otaku-index?style=flat-square
 
-[reposize-info]: https://img.shields.io/github/repo-size/lazybytez/general-template?style=flat-square
+[reposize-info]: https://img.shields.io/github/repo-size/lazybytez/otaku-index?style=flat-square
