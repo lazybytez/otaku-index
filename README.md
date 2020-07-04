@@ -12,11 +12,35 @@ Our goal is to provide a good looking website with easy to understand featuires 
   ![reposize-info][reposize-info]
   
   </div>
-  
+
 ----
 
+## Requirements:
+
+- [Docker](https://docs.docker.com/get-docker/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+
 ## Getting started:
-tbd
+
+1. Clone the repository:
+```
+git clone https://github.com/lazybytez/otaku-index.git
+```
+
+2. Go into the folder of the project:
+```
+cd otaku-index
+```
+
+3. Start and build the docker container:
+```
+docker-compose up -d --build
+```
+
+4. Run symfony commands in the php docker container:
+```
+docker-compose exec php <command>
+```
 
 ## Contributing
 

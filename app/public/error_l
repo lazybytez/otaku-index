@@ -1,0 +1,1496 @@
+[03-Jul-2020 22:31:31 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /"" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[03-Jul-2020 22:37:30 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /"" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[03-Jul-2020 22:37:30 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://localhost:8888/")" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[03-Jul-2020 22:37:31 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /"" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[03-Jul-2020 22:37:31 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://localhost:8888/")" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[03-Jul-2020 22:37:32 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /"" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[03-Jul-2020 22:37:32 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://localhost:8888/")" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[03-Jul-2020 22:37:32 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /"" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[03-Jul-2020 22:37:32 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /"" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[03-Jul-2020 22:37:32 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /"" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[03-Jul-2020 22:37:32 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /"" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[03-Jul-2020 22:37:33 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /"" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[03-Jul-2020 22:37:33 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://localhost:8888/")" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /"" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException" stopped propagation of the event "kernel.exception".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" was not called for event "kernel.exception".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://localhost:8888/")" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+[03-Jul-2020 23:01:24 Asia/Riyadh] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /"" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException" stopped propagation of the event "kernel.exception".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" was not called for event "kernel.exception".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://localhost:8888/")" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[03-Jul-2020 23:01:25 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /"" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException" stopped propagation of the event "kernel.exception".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" was not called for event "kernel.exception".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /"" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException" stopped propagation of the event "kernel.exception".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" was not called for event "kernel.exception".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 02:33:03 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:33:04 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 02:33:04 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 02:33:04 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 02:33:04 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 02:33:04 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 02:33:04 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://localhost:8888/")" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[04-Jul-2020 02:33:04 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 02:33:04 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 02:33:04 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 02:33:04 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 02:33:04 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 02:33:04 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+[04-Jul-2020 02:33:04 Asia/Riyadh] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+[04-Jul-2020 02:33:04 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 02:33:04 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 02:33:04 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 02:33:04 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 02:33:04 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 02:33:04 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:33:04 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 02:33:05 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:33:05 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+
+[04-Jul-2020 02:33:05 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+
+[04-Jul-2020 02:33:05 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+
+[04-Jul-2020 02:33:05 Asia/Riyadh] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+
+[04-Jul-2020 02:33:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 02:33:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 02:33:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 02:33:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 02:33:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 02:33:05 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:33:05 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 02:33:05 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:41 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 02:39:41 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 02:39:41 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 02:39:41 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 02:39:41 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 02:39:41 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /"" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[04-Jul-2020 02:39:41 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+
+[04-Jul-2020 02:39:41 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException".
+
+[04-Jul-2020 02:39:41 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+
+[04-Jul-2020 02:39:41 Asia/Riyadh] [debug] Listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException" stopped propagation of the event "kernel.exception".
+
+[04-Jul-2020 02:39:41 Asia/Riyadh] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" was not called for event "kernel.exception".
+
+[04-Jul-2020 02:39:42 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 02:39:42 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelResponse".
+
+[04-Jul-2020 02:39:42 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".
+
+[04-Jul-2020 02:39:42 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 02:39:42 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".
+
+[04-Jul-2020 02:39:42 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 02:39:42 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 02:39:42 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 02:39:42 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:42 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 02:39:42 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:42 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:42 Asia/Riyadh] [debug] Notified event "kernel.terminate" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelTerminate".
+
+[04-Jul-2020 02:39:42 Asia/Riyadh] [info] Matched route "_wdt".
+
+[04-Jul-2020 02:39:42 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 02:39:42 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 02:39:42 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 02:39:42 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 02:39:42 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 02:39:42 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+[04-Jul-2020 02:39:42 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+
+[04-Jul-2020 02:39:42 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".
+
+[04-Jul-2020 02:39:42 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".
+
+[04-Jul-2020 02:39:42 Asia/Riyadh] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelResponse".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.terminate" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelTerminate".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://localhost:8888/")" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelResponse".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+
+[04-Jul-2020 02:39:43 Asia/Riyadh] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+
+[04-Jul-2020 02:39:44 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 02:39:44 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelResponse".
+
+[04-Jul-2020 02:39:44 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".
+
+[04-Jul-2020 02:39:44 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 02:39:44 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".
+
+[04-Jul-2020 02:39:44 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 02:39:44 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 02:39:44 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 02:39:44 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:44 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 02:39:44 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:44 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:44 Asia/Riyadh] [debug] Notified event "kernel.terminate" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelTerminate".
+
+[04-Jul-2020 02:39:46 Asia/Riyadh] [info] Matched route "_profiler".
+
+[04-Jul-2020 02:39:46 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 02:39:46 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 02:39:46 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 02:39:46 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 02:39:46 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 02:39:46 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+[04-Jul-2020 02:39:46 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+
+[04-Jul-2020 02:39:46 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".
+
+[04-Jul-2020 02:39:46 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".
+
+[04-Jul-2020 02:39:46 Asia/Riyadh] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [info] Matched route "_profiler_search_bar".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelResponse".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelResponse".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:47 Asia/Riyadh] [debug] Notified event "kernel.terminate" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelTerminate".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [info] Matched route "_profiler".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [info] Matched route "_profiler_search_bar".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelResponse".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelResponse".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+
+[04-Jul-2020 02:39:51 Asia/Riyadh] [debug] Notified event "kernel.terminate" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelTerminate".
+
+[04-Jul-2020 05:14:04 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 05:14:04 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 05:14:04 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 05:14:04 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 05:14:04 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 05:14:04 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /"" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[04-Jul-2020 05:14:04 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+
+[04-Jul-2020 05:14:04 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException".
+
+[04-Jul-2020 05:14:04 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+
+[04-Jul-2020 05:14:04 Asia/Riyadh] [debug] Listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException" stopped propagation of the event "kernel.exception".
+
+[04-Jul-2020 05:14:04 Asia/Riyadh] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" was not called for event "kernel.exception".
+
+[04-Jul-2020 05:14:04 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 05:14:04 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelResponse".
+
+[04-Jul-2020 05:14:04 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".
+
+[04-Jul-2020 05:14:04 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 05:14:04 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".
+
+[04-Jul-2020 05:14:04 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 05:14:04 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 05:14:04 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 05:14:04 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 05:14:04 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 05:14:04 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 05:14:04 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+
+[04-Jul-2020 05:14:04 Asia/Riyadh] [debug] Notified event "kernel.terminate" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelTerminate".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [info] Matched route "_wdt".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://localhost:8888/")" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelResponse".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.terminate" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelTerminate".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelResponse".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelResponse".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 05:14:05 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+
+[04-Jul-2020 05:14:06 Asia/Riyadh] [debug] Notified event "kernel.terminate" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelTerminate".
+
+[04-Jul-2020 05:14:30 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 05:14:30 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 05:14:30 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 05:14:30 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 05:14:30 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 05:14:30 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /"" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[04-Jul-2020 05:14:30 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+
+[04-Jul-2020 05:14:30 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException".
+
+[04-Jul-2020 05:14:30 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+
+[04-Jul-2020 05:14:30 Asia/Riyadh] [debug] Listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException" stopped propagation of the event "kernel.exception".
+
+[04-Jul-2020 05:14:30 Asia/Riyadh] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" was not called for event "kernel.exception".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.terminate" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelTerminate".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [info] Matched route "_wdt".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.terminate" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelTerminate".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://localhost:8888/")" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 05:14:31 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+
+[04-Jul-2020 05:14:32 Asia/Riyadh] [debug] Notified event "kernel.terminate" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelTerminate".
+
+[04-Jul-2020 16:47:04 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 16:47:04 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 16:47:04 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 16:47:04 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 16:47:04 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 16:47:04 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /"" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[04-Jul-2020 16:47:04 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+
+[04-Jul-2020 16:47:04 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException".
+
+[04-Jul-2020 16:47:04 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+
+[04-Jul-2020 16:47:04 Asia/Riyadh] [debug] Listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException" stopped propagation of the event "kernel.exception".
+
+[04-Jul-2020 16:47:04 Asia/Riyadh] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" was not called for event "kernel.exception".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelResponse".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.terminate" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelTerminate".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [info] Matched route "_wdt".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET /favicon.ico" (from "http://localhost:8888/")" at /var/www/otaku-index/vendor/symfony/http-kernel/EventListener/RouterListener.php line 136
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelResponse".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+
+[04-Jul-2020 16:47:05 Asia/Riyadh] [debug] Notified event "kernel.terminate" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelTerminate".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelResponse".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelException".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" stopped propagation of the event "kernel.exception".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelResponse".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+
+[04-Jul-2020 16:47:06 Asia/Riyadh] [debug] Notified event "kernel.terminate" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelTerminate".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [info] Matched route "_profiler".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [info] Matched route "_profiler_search_bar".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelResponse".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelResponse".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+
+[04-Jul-2020 16:47:47 Asia/Riyadh] [debug] Notified event "kernel.terminate" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelTerminate".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [info] Matched route "_profiler".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [info] Matched route "_profiler_search_bar".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelRequest".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Bundle\FrameworkBundle\DataCollector\RouterDataCollector::onKernelController".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.controller" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelController".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelResponse".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\DataCollector\RequestDataCollector::onKernelResponse".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelResponse".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Bundle\WebProfilerBundle\EventListener\WebDebugToolbarListener::onKernelResponse".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowRobotsIndexingListener::onResponse".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelResponse".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\StreamedResponseListener::onKernelResponse".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelFinishRequest".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onFinishRequest".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelFinishRequest".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.finish_request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleAwareListener::onKernelFinishRequest".
+
+[04-Jul-2020 16:53:30 Asia/Riyadh] [debug] Notified event "kernel.terminate" to listener "Symfony\Component\HttpKernel\EventListener\ProfilerListener::onKernelTerminate".
+
