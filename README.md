@@ -37,7 +37,14 @@ cd otaku-index
 docker-compose up -d --build
 ```
 
-4. Run symfony commands in the php docker container:
+4. First time setting up the project:
+```
+docker-compose exec php composer install
+```
+
+5. Then you can open symfony at [localhost:8888](http://localhost:8888)
+
+If you want to run symfony commands please do so in the php docker container:
 ```
 docker-compose exec php <command>
 ```
