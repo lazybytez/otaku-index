@@ -1,12 +1,11 @@
-FROM php:fpm-stretch
+FROM php:7.4-fpm-alpine
 
-RUN apt-get update && apt-get install -y
-
-RUN apt-get update && apt-get install -y --no-install-recommends \
+RUN apk update && apk upgrade && apk add \
         git \
-        zlib1g-dev \
+        zlib-dev \
         libxml2-dev \
         libzip-dev \
+        icu-dev \
     && docker-php-ext-install \
         zip \
         intl \

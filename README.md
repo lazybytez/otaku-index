@@ -32,17 +32,22 @@ git clone https://github.com/lazybytez/otaku-index.git
 cd otaku-index
 ```
 
-3. Start and build the docker container:
+3. Change the .env.example to .env
+```
+mv app/.env.example app/.env
+```
+
+4. Start and build the docker container:
 ```
 docker-compose up -d --build
 ```
 
-4. First time setting up the project:
+5. First time setting up the project:
 ```
 docker-compose exec php composer install
 ```
 
-5. Then you can open symfony at [localhost:8888](http://localhost:8888)
+6. Then you can open symfony at [localhost:8888](http://localhost:8888)
 
 If you want to run symfony commands please do so in the php docker container:
 ```
