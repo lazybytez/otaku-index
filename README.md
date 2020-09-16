@@ -59,6 +59,8 @@ docker-compose exec -u www-data php composer install
 
 6. Then you can open symfony at [localhost:8888](http://localhost:8888)
 
+## Developer:
+
 If you want to run symfony commands please do so in the php docker container:
 ```bash
 docker-compose exec -u www-data php <command>

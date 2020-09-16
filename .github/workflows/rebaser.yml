@@ -1,4 +1,4 @@
-name: CI
+name: Rebaser
 
 on:
   push:
@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-      with: 
+      with:
         token: ${{ github.token }}
         ref: 'develop'
     - name: Rebase
