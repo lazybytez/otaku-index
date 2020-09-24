@@ -1,0 +1,20 @@
+FROM php:7.4-fpm-alpine
+
+RUN apk update && apk upgrade && apk add \
+        git \
+        shadow \
+        curl \
+        zlib-dev \
+        libxml2-dev \
+        libzip-dev \
+        icu-dev \
+    && docker-php-ext-install \
+        zip \
+        intl \
+        mysqli \
+        pdo pdo_mysql
+
+RUN curl -sS https://getcomposer.org/installer | php && mv composer.phar /usr/local/bin/composer
+WORKDIR /var/www/otaku-index/
+RUN usermod -u 1000 -s /bin/ash www-data
+RUN chown -R www-data:1000 /var/www
