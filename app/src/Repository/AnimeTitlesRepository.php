@@ -19,6 +19,26 @@ class AnimeTitlesRepository extends ServiceEntityRepository
         parent::__construct($registry, AnimeTitles::class);
     }
 
+    /**
+     * @return AnimeTitles[] Returns an array of all AnimeTitle ids
+     */
+    public function findAllAnimeIds()
+    {
+        $rawIds = $this->createQueryBuilder('a')
+            ->select("a.aid")
+            ->groupBy("a.aid")
+            ->getQuery()
+            ->getResult();
+
+        $result = [];
+
+        foreach ($rawIds as $value) {
+            $result[] = $value["aid"];
+        }
+
+        return $result;
+    }
+
     // /**
     //  * @return AnimeTitles[] Returns an array of AnimeTitles objects
     //  */

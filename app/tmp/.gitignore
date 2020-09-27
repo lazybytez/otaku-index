@@ -1,0 +1,5 @@
+# Ignore everything in the /tmp folder
+/*
+
+# Except the gitignore of course
+!/.gitignore

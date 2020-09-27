@@ -13,35 +13,65 @@ use FOS\RestBundle\Controller\Annotations as Rest;
 class Version1Controller extends AbstractFOSRestController
 {
     /**
-     * @Route("/v1", name="v1")
+     * @Route("/v1", name="api_v1")
      */
     public function index()
     {
-        $routes = [
-            "/v1/anime [l]",
-            "/v1/user [l]"
-        ];
+        /** @var Router $router */
+        $router = $this->get('router');
+        $routes = $router->getRouteCollection();
+
+        $routeArray = [];
+
+        foreach ($routes as $routeName => $route) {
+            if (strpos($routeName, "api_v1_") !== false) {
+                //return $this->handleView($this->view($route));
+                $routeArray[] = [
+                    "name" => $route->getPath(),
+                    "method" => $route->getMethods()
+                ];
+            }
+        }
+
         return $this->render("version1/index.html.twig", [
-            "routes" => $routes
+            "routes" => $routeArray,
         ]);
     }
 
     /**
      * Lists all Anime.
-     * @Rest\Get("/v1/anime")
+     * @Rest\Get("/v1/anime", name="api_v1_anime")
      *
      * @return Response
      */
     public function getAnimeAction()
     {
+        /** @var AnimeTitlesRepository $repository */
         $repository = $this->getDoctrine()->getRepository(AnimeTitles::class);
-        $animeTitles = $repository->findall();
+        $animeTitles = $repository->findAllAnimeIds();
         return $this->handleView($this->view($animeTitles));
     }
 
     /**
+     * Lists all Anime.
+     * @Rest\Get("/v1/anime/{id}")
+     *
+     * @return Response
+     */
+    public function getAnimeInfoAction($id)
+    {
+        $repository = $this->getDoctrine()->getRepository(AnimeTitles::class);
+        $animeInfo = $repository->findBy(array("aid" => $id));
+        if (!$repository) {
+            throw $this->createNotFoundException('No product found for id '.$id);
+        }
+
+        return $this->handleView($this->view($animeInfo));
+    }
+
+    /**
      * Add an Anime.
-     * @Rest\Post("/v1/addanime")
+     * @Rest\Post("/v1/addanime", name="api_v1_addanime")
      *
      * @return Response
      */
