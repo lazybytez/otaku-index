@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Otaku Index API!{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+    <h1>{{ controller_name }}!</h1>
+
+    Here are all available Routes:
+    <ul>
+        <li>List all Anime: <code><a href="{{ '/anime' }}">anime</a></code></li>
+        <li>Add an Anime: <code><a href="{{ '/addanime' }}">addanime</a></code></li>
+    </ul>
+</div>
+{% endblock %}

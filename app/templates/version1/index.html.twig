@@ -1,0 +1,86 @@
+{% block body %}
+** Public API v1 **
+
+Usage:
+
+The API follows the general pattern of enumerating possible values of the
+subsequent path segment, with the fully qualified path yielding a json object
+of the type being enumerated.
+
+For example, /v1/anime will yield:
+  [1, 2, 3, ... ]
+
+which can be used to create the fully qualified path of:
+  /v1/anime/1
+
+The following paths are exposed by this API:
+
+{% for routes in routes %}
+    {{ routes }}
+{% endfor %}
+
+Key:
+  l : locale aware (via ?lang=<langId>)
+  d : currently disabled
+  a : requires authentication
+
+Locale:
+
+APIs which are locale aware accept the ?lang=<langId> option. For example:
+  /v1/anime/1?lang=fr
+
+Possible locale 'langId' values include:
+  en
+  es
+  de
+  fr
+  zh
+
+Bulk expansion:
+
+Many APIs offer bulk expansion. APIs that offer bulk expansion will provide a list of
+possible IDs when no parameters are provided. As set of ids can be then be resolved into
+objects via one of four methods. The simplest is by specifying multiple ids via query
+parameter, as in:
+
+  /v1/anime?ids=1,2,3
+
+Individual ids may also be requested via
+
+  /v1/anime/1
+  /v1/anime?id=1
+
+Some endpoints support returning all resources. To do this, one may also specify 'all'
+to expand all ids. For example:
+
+  /v1/anime?ids=all
+
+Not all APIs support the 'all' keyword as it may be too expensive.
+
+Another approach to bulk expansion is through pages.  Use the ?page=<page#>
+parameter to specify the requeste page.  Optionally, you can also provide
+a &page_size=<page size> value to adjust to your preferred page size.
+
+Sample usage is:
+
+  /v1/anime?page=0&page_size=10
+
+Pay attention to response headers which provide additional metadata about
+the underlying collection, pagination info, and links.
+
+Authentication:
+
+APIs which require authentication need to be passed an API key belonging to
+the account to be accessed. The API key must have the appropriate permissions
+associated with it (/v2/tokeninfo can be used to inspect key permissions). Keys
+can be generated on the ArenaNet account site.
+
+Keys can be passed either via query parameter or HTTP header. Our servers do
+not support preflighted CORS requests, so if your application is running
+in the user's browser you'll need to user the query parameter.
+
+To pass via query parameter, include "?access_token=<API key>" in your request.
+
+To pass via HTTP header, include "Authorization: Bearer <API key>".
+
+{% endblock %}
