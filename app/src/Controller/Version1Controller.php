@@ -2,8 +2,8 @@
 
 namespace App\Controller;
 
-use App\Entity\AnimeTitles;
-use App\Form\AnimeTitlesType;
+use App\Entity\AnimeTitle;
+use App\Form\AnimeTitleType;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -46,10 +46,10 @@ class Version1Controller extends AbstractFOSRestController
      */
     public function getAnimeAction()
     {
-        /** @var AnimeTitlesRepository $repository */
-        $repository = $this->getDoctrine()->getRepository(AnimeTitles::class);
-        $animeTitles = $repository->findAllAnimeIds();
-        return $this->handleView($this->view($animeTitles));
+        /** @var AnimeTitleRepository $repository */
+        $repository = $this->getDoctrine()->getRepository(AnimeTitle::class);
+        $animeTitle = $repository->findAllAnimeIds();
+        return $this->handleView($this->view($animeTitle));
     }
 
     /**
@@ -60,7 +60,7 @@ class Version1Controller extends AbstractFOSRestController
      */
     public function getAnimeInfoAction($id)
     {
-        $repository = $this->getDoctrine()->getRepository(AnimeTitles::class);
+        $repository = $this->getDoctrine()->getRepository(AnimeTitle::class);
         $animeInfo = $repository->findBy(array("aid" => $id));
         if (!$repository) {
             throw $this->createNotFoundException('No product found for id '.$id);
@@ -77,13 +77,13 @@ class Version1Controller extends AbstractFOSRestController
      */
     public function postAnimeAction(Request $request)
     {
-        $animeTitles = new AnimeTitles();
-        $form = $this->createForm(AnimeTitlesType::class, $animeTitles);
+        $animeTitle = new AnimeTitle();
+        $form = $this->createForm(AnimeTitleType::class, $animeTitle);
         $data = json_decode($request->getContent(), true);
         $form->submit($data);
         if ($form->isSubmitted() && $form->isValid()) {
             $em = $this->getDoctrine()->getManager();
-            $em->persist($animeTitles);
+            $em->persist($animeTitle);
             $em->flush();
         return $this->handleView($this->view(["status" => "ok"], Response::HTTP_CREATED));
       }

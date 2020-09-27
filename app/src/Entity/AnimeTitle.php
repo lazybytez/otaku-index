@@ -2,13 +2,13 @@
 
 namespace App\Entity;
 
-use App\Repository\AnimeTitlesRepository;
+use App\Repository\AnimeTitleRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass=AnimeTitlesRepository::class)
+ * @ORM\Entity(repositoryClass=AnimeTitleRepository::class)
  */
-class AnimeTitles
+class AnimeTitle
 {
     /**
      * @ORM\Id

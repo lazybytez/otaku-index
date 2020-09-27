@@ -2,25 +2,25 @@
 
 namespace App\Repository;
 
-use App\Entity\AnimeTitles;
+use App\Entity\AnimeTitle;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 
 /**
- * @method AnimeTitles|null find($id, $lockMode = null, $lockVersion = null)
- * @method AnimeTitles|null findOneBy(array $criteria, array $orderBy = null)
- * @method AnimeTitles[]    findAll()
- * @method AnimeTitles[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
+ * @method AnimeTitle|null find($id, $lockMode = null, $lockVersion = null)
+ * @method AnimeTitle|null findOneBy(array $criteria, array $orderBy = null)
+ * @method AnimeTitle[]    findAll()
+ * @method AnimeTitle[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
  */
-class AnimeTitlesRepository extends ServiceEntityRepository
+class AnimeTitleRepository extends ServiceEntityRepository
 {
     public function __construct(ManagerRegistry $registry)
     {
-        parent::__construct($registry, AnimeTitles::class);
+        parent::__construct($registry, AnimeTitle::class);
     }
 
     /**
-     * @return AnimeTitles[] Returns an array of all AnimeTitle ids
+     * @return AnimeTitle[] Returns an array of all AnimeTitle ids
      */
     public function findAllAnimeIds()
     {
@@ -40,7 +40,7 @@ class AnimeTitlesRepository extends ServiceEntityRepository
     }
 
     // /**
-    //  * @return AnimeTitles[] Returns an array of AnimeTitles objects
+    //  * @return AnimeTitle[] Returns an array of AnimeTitle objects
     //  */
     /*
     public function findByExampleField($value)
@@ -57,7 +57,7 @@ class AnimeTitlesRepository extends ServiceEntityRepository
     */
 
     /*
-    public function findOneBySomeField($value): ?AnimeTitles
+    public function findOneBySomeField($value): ?AnimeTitle
     {
         return $this->createQueryBuilder('a')
             ->andWhere('a.exampleField = :val')

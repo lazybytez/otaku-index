@@ -2,12 +2,12 @@
 
 namespace App\Form;
 
-use App\Entity\AnimeTitles;
+use App\Entity\AnimeTitle;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
-class AnimeTitlesType extends AbstractType
+class AnimeTitleType extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
@@ -22,7 +22,7 @@ class AnimeTitlesType extends AbstractType
     public function configureOptions(OptionsResolver $resolver)
     {
         $resolver->setDefaults([
-            'data_class' => AnimeTitles::class,
+            'data_class' => AnimeTitle::class,
         ]);
     }
 }
