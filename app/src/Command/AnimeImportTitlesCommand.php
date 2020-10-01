@@ -28,10 +28,8 @@ class AnimeImportTitlesCommand extends Command
     {
         $this
             ->setDescription(
-                "Download the AniDB XML dump at: https://anidb.net/api/anime-titles.xml.gz\n" .
-                "  Then put the .gz in /app/tmp then execute the command."
-                )
-        ;
+                "Download the AniDB XML dump with 'anime:download-dump'\n" .
+                "  Then execute this command.");
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int
