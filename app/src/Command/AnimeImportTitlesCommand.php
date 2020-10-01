@@ -2,6 +2,7 @@
 
 namespace App\Command;
 
+use App\Entity\Anime;
 use App\Entity\AnimeTitle;
 use SimpleXMLElement;
 use Symfony\Component\Console\Command\Command;
@@ -74,6 +75,8 @@ class AnimeImportTitlesCommand extends Command
         $em = $this->entityManager;
 
         foreach ($xml->anime as $anime) {
+            // Create new Anime
+            $animeEntry = new Anime();
             foreach ($anime as $animeTitle) {
                 // Import every anime which doesnt exist yet
                 $animeTitleEntry = $em->getRepository(AnimeTitle::class)->findBy(array(
@@ -84,17 +87,18 @@ class AnimeImportTitlesCommand extends Command
                 ));
                 if(!$animeTitleEntry) {
                     // Build entry
-                    $animeEntry = new AnimeTitle();
-                    $animeEntry->setAid(intval($anime["aid"]));
-                    $animeEntry->setType(intval($animeTitle["type"]));
-                    $animeEntry->setLanguage($animeTitle->attributes("xml", true)["lang"]);
-                    $animeEntry->setTitle($animeTitle);
+                    $animeTitleEntry = new AnimeTitle();
+                    $animeTitleEntry->setAid(intval($anime["aid"]));
+                    $animeTitleEntry->setType(intval($animeTitle["type"]));
+                    $animeTitleEntry->setLanguage($animeTitle->attributes("xml", true)["lang"]);
+                    $animeTitleEntry->setTitle($animeTitle);
+
+                    $animeEntry->addAnimeTitle($animeTitleEntry);
                     // Add entry
-                    $em->persist($animeEntry);
-                    $em->flush();
-                } else {
-                    // silence
+                    $em->persist($animeTitleEntry);
                 }
+                $em->persist($animeEntry);
+                $em->flush();
             }
         }
 

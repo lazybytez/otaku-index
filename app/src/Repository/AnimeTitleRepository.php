@@ -5,6 +5,7 @@ namespace App\Repository;
 use App\Entity\AnimeTitle;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
+use Symfony\Flex\Unpack\Result;
 
 /**
  * @method AnimeTitle|null find($id, $lockMode = null, $lockVersion = null)
@@ -19,25 +20,21 @@ class AnimeTitleRepository extends ServiceEntityRepository
         parent::__construct($registry, AnimeTitle::class);
     }
 
-    /**
-     * @return AnimeTitle[] Returns an array of all AnimeTitle ids
-     */
-    public function findAllAnimeIds()
-    {
-        $rawIds = $this->createQueryBuilder('a')
-            ->select("a.aid")
-            ->groupBy("a.aid")
-            ->getQuery()
-            ->getResult();
-
-        $result = [];
-
-        foreach ($rawIds as $value) {
-            $result[] = $value["aid"];
-        }
-
-        return $result;
-    }
+    // /**
+    //  * @return AnimeTitle[] Returns an array with all Anime data
+    //  */
+    // public function findAnimeTitlesById($value)
+    // {
+    //     return $this->createQueryBuilder('a')
+    //         ->select("a.type")
+    //         ->addSelect("a.language")
+    //         ->addSelect("a.title")
+    //         ->andWhere('a.aid = :val')
+    //         ->setParameter('val', $value)
+    //         ->orderBy('a.id', 'ASC')
+    //         ->getQuery()
+    //         ->getResult();
+    // }
 
     // /**
     //  * @return AnimeTitle[] Returns an array of AnimeTitle objects

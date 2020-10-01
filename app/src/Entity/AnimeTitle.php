@@ -37,6 +37,12 @@ class AnimeTitle
      */
     private $title;
 
+    /**
+     * @ORM\ManyToOne(targetEntity=Anime::class, inversedBy="AnimeTitle")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $anime;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -86,6 +92,18 @@ class AnimeTitle
     public function setTitle(string $title): self
     {
         $this->title = $title;
+
+        return $this;
+    }
+
+    public function getAnime(): ?Anime
+    {
+        return $this->anime;
+    }
+
+    public function setAnime(?Anime $anime): self
+    {
+        $this->anime = $anime;
 
         return $this;
     }
