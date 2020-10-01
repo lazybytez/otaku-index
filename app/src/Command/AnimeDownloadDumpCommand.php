@@ -35,7 +35,7 @@ class AnimeDownloadDumpCommand extends Command
     protected function downloadFile()
     {
         // Initialize a file URL to the variable
-        $url = 'http://anidb.net/api/anime-titles.xml.gz';
+        $url = 'https://anidb.net/api/anime-titles.xml.gz';
 
         // Initialize the cURL session
         $ch = curl_init($url);
