@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Controller\ApiV1;
+namespace App\Controller\V1;
 
 use Symfony\Component\Routing\Annotation\Route;
 use FOS\RestBundle\Controller\AbstractFOSRestController;
 
-class Version1Controller extends AbstractFOSRestController
+class VersionController extends AbstractFOSRestController
 {
     /**
      * @Route("/v1", name="api_v1")

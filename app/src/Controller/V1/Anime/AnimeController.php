@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controller\ApiV1;
+namespace App\Controller\V1\Anime;
 
 use App\Entity\Anime;
 use App\Entity\AnimeTitle;
@@ -10,7 +10,7 @@ use Symfony\Component\HttpFoundation\Response;
 use FOS\RestBundle\Controller\AbstractFOSRestController;
 use FOS\RestBundle\Controller\Annotations as Rest;
 
-class AnimeV1Controller extends AbstractFOSRestController
+class AnimeController extends AbstractFOSRestController
 {
     /**
      * Lists all Anime.
@@ -18,7 +18,7 @@ class AnimeV1Controller extends AbstractFOSRestController
      *
      * @return Response
      */
-    public function getAnimeAction(): Response
+    public function getAnimeIdsAction(): Response
     {
         /** @var AnimeRepository $repository */
         $repository = $this->getDoctrine()->getRepository(Anime::class);
