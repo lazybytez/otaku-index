@@ -13,6 +13,9 @@ use Doctrine\ORM\EntityManagerInterface;
 
 class AnimeImportTitlesCommand extends Command
 {
+    private const ZIP_DIRECTORY = './tmp/anime-titles.xml.gz';
+    private const UNZIP_DIRECTORY = './tmp/anime-titles.xml';
+
     protected static $defaultName = 'anime:import-titles';
 
     private $entityManager;
@@ -49,12 +52,10 @@ class AnimeImportTitlesCommand extends Command
 
     protected function unzipFile($io)
     {
-        $file_name = "./tmp/anime-titles.xml.gz";
-
         $buffer_size = 4096;
-        $out_file_name = str_replace('.gz', '', $file_name);
+        $out_file_name = str_replace('.gz', '', self::ZIP_DIRECTORY);
 
-        $file = gzopen($file_name, 'rb');
+        $file = gzopen(self::ZIP_DIRECTORY, 'rb');
         $out_file = fopen($out_file_name, 'wb');
 
         while (!gzeof($file)) {
@@ -64,12 +65,12 @@ class AnimeImportTitlesCommand extends Command
         fclose($out_file);
         gzclose($file);
 
-        $io->text("File unpacked to " . $file_name);
+        $io->text("File unpacked to " . self::ZIP_DIRECTORY);
     }
 
     protected function importData($io)
     {
-        $xml = simplexml_load_file("./tmp/anime-titles.xml", SimpleXMLElement::class, LIBXML_XINCLUDE);
+        $xml = simplexml_load_file(self::UNZIP_DIRECTORY, SimpleXMLElement::class, LIBXML_XINCLUDE);
         $em = $this->entityManager;
 
         foreach ($xml->anime as $anime) {
@@ -87,7 +88,7 @@ class AnimeImportTitlesCommand extends Command
                     // Build entry
                     $animeTitleEntry = new AnimeTitle();
                     $animeTitleEntry->setAid(intval($anime["aid"]));
-                    $animeTitleEntry->setType(intval($animeTitle["type"]));
+                    $animeTitleEntry->setType($animeTitle["type"]);
                     $animeTitleEntry->setLanguage($animeTitle->attributes("xml", true)["lang"]);
                     $animeTitleEntry->setTitle($animeTitle);
 
