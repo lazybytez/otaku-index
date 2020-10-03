@@ -9,6 +9,9 @@ use Symfony\Component\Console\Style\SymfonyStyle;
 
 class AnimeDownloadDumpCommand extends Command
 {
+    private const USER_AGENT = 'Mozilla/5.0 (Windows NT 5.1; rv:31.0) Gecko/20100101 Firefox/31.0';
+    private const DOWNLOAD_URL = 'https://anidb.net/api/anime-titles.xml.gz';
+
     protected static $defaultName = 'anime:download-dump';
 
     protected function configure()
@@ -34,11 +37,8 @@ class AnimeDownloadDumpCommand extends Command
 
     protected function downloadFile()
     {
-        // Initialize a file URL to the variable
-        $url = 'https://anidb.net/api/anime-titles.xml.gz';
-
         // Initialize the cURL session
-        $ch = curl_init($url);
+        $ch = curl_init(self::DOWNLOAD_URL);
 
         // Inintialize directory name where
         // file will be save
@@ -46,7 +46,7 @@ class AnimeDownloadDumpCommand extends Command
 
         // Use basename() function to return
         // the base name of file
-        $file_name = basename($url);
+        $file_name = basename(self::DOWNLOAD_URL);
 
         // Save file into file location
         $save_file_loc = $dir . $file_name;
@@ -55,6 +55,7 @@ class AnimeDownloadDumpCommand extends Command
         $fp = fopen($save_file_loc, 'wb');
 
         // It set an option for a cURL transfer
+        curl_setopt( $ch, CURLOPT_USERAGENT, self::USER_AGENT );
         curl_setopt($ch, CURLOPT_FILE, $fp);
         curl_setopt($ch, CURLOPT_HEADER, 0);
 
