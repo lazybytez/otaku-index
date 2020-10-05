@@ -65,7 +65,7 @@ class AnimeImportTitlesCommand extends Command
         fclose($out_file);
         gzclose($file);
 
-        $io->text("File unpacked to " . self::ZIP_DIRECTORY);
+        $io->text("File unpacked to " . self::UNZIP_DIRECTORY);
     }
 
     protected function importData($io)
@@ -74,33 +74,59 @@ class AnimeImportTitlesCommand extends Command
         $em = $this->entityManager;
 
         foreach ($xml->anime as $anime) {
-            // Create new Anime
-            $animeEntry = new Anime();
-            foreach ($anime as $animeTitle) {
-                // Import every anime which doesnt exist yet
-                $animeTitleEntry = $em->getRepository(AnimeTitle::class)->findBy(array(
-                    "aid" => $anime["aid"],
-                    "type" => $animeTitle["type"],
-                    "language" => $animeTitle->attributes("xml", true)["lang"],
-                    "title" => $animeTitle,
-                ));
-                if(!$animeTitleEntry) {
-                    // Build entry
-                    $animeTitleEntry = new AnimeTitle();
-                    $animeTitleEntry->setAid(intval($anime["aid"]));
-                    $animeTitleEntry->setType($animeTitle["type"]);
-                    $animeTitleEntry->setLanguage($animeTitle->attributes("xml", true)["lang"]);
-                    $animeTitleEntry->setTitle($animeTitle);
-
-                    $animeEntry->addAnimeTitle($animeTitleEntry);
-                    // Add entry
-                    $em->persist($animeTitleEntry);
-                }
-                $em->persist($animeEntry);
-                $em->flush();
+            // Search for existing Anime by id
+            $animeObject = $em->getRepository(Anime::class)->findBy(array(
+                "id" => $anime["aid"]
+            ));
+            // If there is no Anime with the id add it
+            if (!$animeObject) {
+                $this->addAnimeObject($em, $anime);
+            }
+            // If there is an Anime look if you can update the title(s)
+            if ($animeObject) {
+                //$this->updateAnimeObject($em, $anime);
             }
         }
 
+        // Execute SQL query
+        $em->flush();
+
         $io->text("Anime titles successfully updated.");
+    }
+
+    protected function addAnimeObject($em, $anime)
+    {
+        // If there is no object create it
+        $animeEntry = new Anime();
+        // Add all titles to entry
+        foreach ($anime as $animeTitle) {
+            $animeTitleEntry = new AnimeTitle();
+            $animeTitleEntry->setAid(intval($anime["aid"]));
+            $animeTitleEntry->setType($animeTitle["type"]);
+            $animeTitleEntry->setLanguage($animeTitle->attributes("xml", true)["lang"]);
+            $animeTitleEntry->setTitle($animeTitle);
+            $animeEntry->addAnimeTitle($animeTitleEntry);
+            $em->persist($animeTitleEntry);
+        }
+        // Persist data
+        $em->persist($animeEntry);
+    }
+
+    protected function updateAnimeObject($em, $anime)
+    {
+        // For each
+        foreach ($anime as $animeTitle) {
+            // Find title
+            $animeTitleObject = $em->getRepository(AnimeTitle::class)->findBy(array(
+                "aid" => $anime["aid"],
+                "type" => $animeTitle["type"],
+                "language" => $animeTitle->attributes("xml", true)["lang"],
+                "title" => $animeTitle,
+            ));
+
+            if(!$animeTitleObject) {
+                // Import new title
+            }
+        }
     }
 }

@@ -19,10 +19,12 @@ The following paths are exposed by this API:
     {{ routes.name }} [{{ routes.method[0] }}]
 {% endfor %}
 
-Keys:
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+> Every [POST] request requires authentication. <
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-  a -> requires authentication
+Authentication:
+You need to send a secret user "token" OR api key per POST. More infos in the documentation.
 
-MORE INFOS WILL COME!!!
-
+CURRENTLY WORK IN PROGRESS!!!
 {% endblock %}
