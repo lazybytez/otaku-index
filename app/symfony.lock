@@ -249,9 +249,6 @@
     "symfony/options-resolver": {
         "version": "v5.1.5"
     },
-    "symfony/orm-pack": {
-        "version": "v1.0.8"
-    },
     "symfony/polyfill-intl-grapheme": {
         "version": "v1.17.1"
     },

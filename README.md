@@ -27,7 +27,7 @@ Our API is something i would spend most time developing it. Applications like ch
 ## Quicksetup:
 
 ```bash
-git clone https://github.com/lazybytez/otaku-index.git && cd otaku-index && cp app/.env.example app/.env && docker-compose up -d --build && docker-compose -u www-data exec php composer install
+git clone https://github.com/lazybytez/otaku-index.git && cd otaku-index && cp app/.env.example app/.env && docker-compose up -d --build && docker-compose exec -u www-data php composer install
 ```
 
 ## Getting started:

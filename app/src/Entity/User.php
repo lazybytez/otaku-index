@@ -23,6 +23,11 @@ class User
     private $username;
 
     /**
+     * @ORM\Column(type="integer")
+     */
+    private $uniqueId;
+
+    /**
      * @ORM\Column(type="string", length=255)
      */
     private $email;
@@ -35,7 +40,13 @@ class User
     /**
      * @ORM\Column(type="datetime")
      */
-    private $CreatedAt;
+    private $createdAt;
+
+    /**
+     * @ORM\OneToOne(targetEntity=Visibility::class, inversedBy="user", cascade={"persist", "remove"})
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $visibility;
 
     public function getId(): ?int
     {
@@ -50,6 +61,18 @@ class User
     public function setUsername(string $username): self
     {
         $this->username = $username;
+
+        return $this;
+    }
+
+    public function getUniqueId(): ?int
+    {
+        return $this->uniqueId;
+    }
+
+    public function setUniqueId(int $uniqueId): self
+    {
+        $this->uniqueId = $uniqueId;
 
         return $this;
     }
@@ -80,12 +103,24 @@ class User
 
     public function getCreatedAt(): ?\DateTimeInterface
     {
-        return $this->CreatedAt;
+        return $this->createdAt;
     }
 
-    public function setCreatedAt(\DateTimeInterface $CreatedAt): self
+    public function setCreatedAt(\DateTimeInterface $createdAt): self
     {
-        $this->CreatedAt = $CreatedAt;
+        $this->createdAt = $createdAt;
+
+        return $this;
+    }
+
+    public function getVisibility(): ?Visibility
+    {
+        return $this->visibility;
+    }
+
+    public function setVisibility(Visibility $visibility): self
+    {
+        $this->visibility = $visibility;
 
         return $this;
     }

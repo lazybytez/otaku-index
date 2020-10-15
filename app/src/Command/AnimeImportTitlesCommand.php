@@ -86,10 +86,11 @@ class AnimeImportTitlesCommand extends Command
             if ($animeObject) {
                 //$this->updateAnimeObject($em, $anime);
             }
+            $em->flush();
         }
 
         // Execute SQL query
-        $em->flush();
+        //$em->flush();
 
         $io->text("Anime titles successfully updated.");
     }
