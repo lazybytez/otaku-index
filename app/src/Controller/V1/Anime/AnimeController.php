@@ -41,6 +41,10 @@ class AnimeController extends AbstractFOSRestController
             return $this->handleView($this->view($animeInfo[0]));
         }
 
+        // $repository = $this->getDoctrine()->getRepository(AnimeTitle::class);
+        // $animeInfo = $repository->findBy(array("aid" => $id));
+        // return $this->handleView($this->view($animeInfo));
+
         return $this->handleView($this->view(["error" => "Anime with id ".$id." not found"]));
     }
 

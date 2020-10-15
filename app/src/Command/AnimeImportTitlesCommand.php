@@ -114,19 +114,7 @@ class AnimeImportTitlesCommand extends Command
 
     protected function updateAnimeObject($em, $anime)
     {
-        // For each
-        foreach ($anime as $animeTitle) {
-            // Find title
-            $animeTitleObject = $em->getRepository(AnimeTitle::class)->findBy(array(
-                "aid" => $anime["aid"],
-                "type" => $animeTitle["type"],
-                "language" => $animeTitle->attributes("xml", true)["lang"],
-                "title" => $animeTitle,
-            ));
-
-            if(!$animeTitleObject) {
-                // Import new title
-            }
-        }
+        // Add entry if missing
+        // Update entry if hash is not same as before
     }
 }
