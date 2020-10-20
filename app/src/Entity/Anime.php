@@ -24,6 +24,11 @@ class Anime
      */
     private $animetitle;
 
+    /**
+     * @ORM\OneToOne(targetEntity=AnimeInfo::class, inversedBy="anime", cascade={"persist", "remove"})
+     */
+    private $animeinfo;
+
     public function __construct()
     {
         $this->animetitle = new ArrayCollection();
@@ -61,6 +66,18 @@ class Anime
                 $animetitle->setAnime(null);
             }
         }
+
+        return $this;
+    }
+
+    public function getAnimeinfo(): ?AnimeInfo
+    {
+        return $this->animeinfo;
+    }
+
+    public function setAnimeinfo(?AnimeInfo $animeinfo): self
+    {
+        $this->animeinfo = $animeinfo;
 
         return $this;
     }

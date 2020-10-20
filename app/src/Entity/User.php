@@ -48,6 +48,12 @@ class User
      */
     private $visibility;
 
+    /**
+     * @ORM\OneToOne(targetEntity=Profile::class, cascade={"persist", "remove"})
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $profile;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -121,6 +127,18 @@ class User
     public function setVisibility(Visibility $visibility): self
     {
         $this->visibility = $visibility;
+
+        return $this;
+    }
+
+    public function getProfile(): ?Profile
+    {
+        return $this->profile;
+    }
+
+    public function setProfile(Profile $profile): self
+    {
+        $this->profile = $profile;
 
         return $this;
     }

@@ -22,8 +22,14 @@ class AnimeController extends AbstractFOSRestController
     {
         /** @var AnimeRepository $repository */
         $repository = $this->getDoctrine()->getRepository(Anime::class);
-        $animeTitle = $repository->findAllAnimeIds();
-        return $this->handleView($this->view($animeTitle));
+        $anime = $repository->findAllAnimeIds();
+
+        if (isset($_GET['q'])) {
+            $id = explode(",", $_GET['q']);
+            $anime = $repository->findBy(array("id" => $id));
+        }
+
+        return $this->handleView($this->view($anime));
     }
 
     /**
@@ -35,15 +41,13 @@ class AnimeController extends AbstractFOSRestController
     public function getAnimeInfoAction($id): Response
     {
         $repository = $this->getDoctrine()->getRepository(Anime::class);
-        $animeInfo = $repository->findBy(array("id" => $id));
+        $anime = $repository->findOneBy(array("id" => $id));
 
-        if (isset($animeInfo[0])) {
-            return $this->handleView($this->view($animeInfo[0]));
+        // TODO: If anime.animeinfo is null get data from anidb: http://api.anidb.net:9001/httpapi?request=anime&client=otakuindex&clientver=1&protover=1&aid=1
+
+        if (isset($anime[0])) {
+            return $this->handleView($this->view($anime[0]));
         }
-
-        // $repository = $this->getDoctrine()->getRepository(AnimeTitle::class);
-        // $animeInfo = $repository->findBy(array("aid" => $id));
-        // return $this->handleView($this->view($animeInfo));
 
         return $this->handleView($this->view(["error" => "Anime with id ".$id." not found"]));
     }
