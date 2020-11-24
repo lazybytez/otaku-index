@@ -35,5 +35,17 @@ services:
             - 3306:3306
         networks:
             - symfony
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        links:
+            - mysql
+        environment:
+            PMA_HOST: mysql
+            PMA_PORT: 3306
+            PMA_ARBITRARY: 1
+        ports:
+            - 8889:80
+        networks:
+            - symfony
 networks:
   symfony:

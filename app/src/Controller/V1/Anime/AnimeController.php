@@ -25,6 +25,7 @@ class AnimeController extends AbstractFOSRestController
         $anime = $repository->findAllAnimeIds();
 
         if (isset($_GET['q'])) {
+            // TODO: If anime.animeinfo is null get data from anidb: http://api.anidb.net:9001/httpapi?request=anime&client=otakuindex&clientver=1&protover=1&aid=1
             $id = explode(",", $_GET['q']);
             $anime = $repository->findBy(array("id" => $id));
         }

@@ -78,11 +78,9 @@ class AnimeImportTitlesCommand extends Command
             $animeObject = $em->getRepository(Anime::class)->findBy(array(
                 "id" => $anime["aid"]
             ));
-            // If there is no Anime with the id add it
             if (!$animeObject) {
                 $this->addAnimeObject($em, $anime);
             }
-            // If there is an Anime look if you can update the title(s)
             if ($animeObject) {
                 //$this->updateAnimeObject($em, $anime);
             }
@@ -90,7 +88,7 @@ class AnimeImportTitlesCommand extends Command
         }
 
         // Execute SQL query
-        //$em->flush();
+        // $em->flush();
 
         $io->text("Anime titles successfully updated.");
     }
@@ -115,7 +113,6 @@ class AnimeImportTitlesCommand extends Command
 
     protected function updateAnimeObject($em, $anime)
     {
-        // Add entry if missing
-        // Update entry if hash is not same as before
+        // TODO: Update entry if hash is not same as before
     }
 }

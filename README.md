@@ -54,7 +54,7 @@ docker-compose up -d --build
 
 5. First time setting up the project:
 ```bash
-docker-compose exec -u www-data php composer install
+docker-compose exec -u www-data php composer install && docker-compose exec -u www-data php composer drop-env dev
 ```
 
 6. Then you can open symfony at [localhost:8888](http://localhost:8888)
