@@ -67,7 +67,18 @@ docker-compose exec -u www-data php composer install && docker-compose exec -u w
 docker-compose exec -u www-data php <command>
 ```
 
-2. If you want to look at the database you can so do with phpmyadmin [localhost:8889](http://localhost:8889)
+2. If you want to get the Database working you first have to execute a few commands:
+```bash
+docker-compose exec -u www-data php php bin/console doctrine:database:create
+```
+```bash
+docker-compose exec -u www-data php php bin/console doctrine:migrations:migrate
+```
+```bash
+docker-compose exec -u www-data php php bin/console doctrine:fixtures:load
+```
+
+3. If you want to look at the database you can so do with phpmyadmin [localhost:8889](http://localhost:8889)
 
 ## Contributing
 
