@@ -1,9 +1,6 @@
 # Otaku Index
-This is a upcoming Anime site where you can create your own watchlist and make your own "page" with personal anime content etc. 
 
-Our goal is to provide a good looking and easy to understand website with an functional API, which you can also freely use for your own projects! 
-
-Our API is something i would spend most time developing it. Applications like chrome addons which syncronize your list, based on what you watched on specific websites and more should be possible. 
+Our goal is to provide easy to understand Anime website with an functional REST API, which you can also freely use for your own projects!
 
 ---- 
 
@@ -18,6 +15,10 @@ Our API is something i would spend most time developing it. Applications like ch
   </div>
 
 ----
+
+If you want to work with the API you can find the official Documentation here: [otakuindex.docs.apiary.com](https://otakuindex.docs.apiary.io)
+
+If you want to take part in our developement you can find the setup below:
 
 ## Requirements:
 
@@ -61,10 +62,12 @@ docker-compose exec -u www-data php composer install && docker-compose exec -u w
 
 ## Developer:
 
-If you want to run symfony commands please do so in the php docker container:
+1. If you want to run symfony commands please do so in the php docker container:
 ```bash
 docker-compose exec -u www-data php <command>
 ```
+
+2. If you want to look at the database you can so do with phpmyadmin [localhost:8889](http://localhost:8889)
 
 ## Contributing
 
