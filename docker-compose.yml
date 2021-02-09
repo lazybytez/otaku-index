@@ -22,30 +22,17 @@ services:
         networks:
             - symfony
         depends_on:
-            - mysql
-    mysql:
-        image: mysql:8.0
+            - db
+    db:
+        image: postgres:13-alpine
         environment:
-            MYSQL_ROOT_PASSWORD: password
-            MYSQL_DATABASE: symfony
-            MYSQL_USER: symfony
-            MYSQL_PASSWORD: symfony
-        command: "--default-authentication-plugin=mysql_native_password"
-        ports:
-            - 3306:3306
+            - POSTGRES_DB=symfony
+            - POSTGRES_PASSWORD=symfony
+            - POSTGRES_USER=otakuindex
         networks:
             - symfony
-    phpmyadmin:
-        image: phpmyadmin/phpmyadmin
-        links:
-            - mysql
-        environment:
-            PMA_HOST: mysql
-            PMA_PORT: 3306
-            PMA_ARBITRARY: 1
         ports:
-            - 8889:80
-        networks:
-            - symfony
+            - 5432:5432
+
 networks:
   symfony:

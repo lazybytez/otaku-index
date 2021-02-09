@@ -1,6 +1,11 @@
-FROM php:7.4-fpm-alpine
+FROM php:8.0-fpm-alpine
+
+RUN set -ex \
+  && apk --no-cache add \
+    postgresql-dev
 
 RUN apk update && apk upgrade && apk add \
+        composer \
         git \
         shadow \
         curl \
@@ -11,10 +16,9 @@ RUN apk update && apk upgrade && apk add \
     && docker-php-ext-install \
         zip \
         intl \
-        mysqli \
-        pdo pdo_mysql
+        pdo_pgsql \
+        pgsql
 
-RUN curl -sS https://getcomposer.org/installer | php && mv composer.phar /usr/local/bin/composer
 WORKDIR /var/www/otaku-index/
 RUN usermod -u 1000 -s /bin/ash www-data
 RUN chown -R www-data:1000 /var/www
