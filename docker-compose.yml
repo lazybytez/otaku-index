@@ -22,13 +22,13 @@ services:
         networks:
             - symfony
         depends_on:
-            - db
-    db:
+            - database
+    database:
         image: postgres:13-alpine
         environment:
-            - POSTGRES_DB=symfony
-            - POSTGRES_PASSWORD=symfony
-            - POSTGRES_USER=otakuindex
+            POSTGRES_DB: otakuindex
+            POSTGRES_USER: symfony
+            POSTGRES_PASSWORD: symfony
         networks:
             - symfony
         ports:
